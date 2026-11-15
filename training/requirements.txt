@@ -1,0 +1,7 @@
+transformers[torch]>=4.50.0
+torchvision>=0.16.0
+datasets>=3.3.0
+evaluate>=0.4.3
+scikit-learn>=1.6.0
+Pillow>=11.0.0
+numpy>=2.0.0

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f3f5e9" />
+  <meta name="description" content="A calmer way to understand what your plants need. Upload a leaf photo for a guided plant health check." />
+  <title>LeafLens — See your plant more clearly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=glass-dock-1" />
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#home" aria-label="LeafLens home"><span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M25.8 5.4C15.1 5.2 7.4 8.2 6.1 16c-.7 4.2 1.9 7.2 5.4 7.3 7.7.2 12.8-7.7 14.3-17.9Z"/><path d="M7 27c3.9-6.6 8.8-10.9 15.9-15.3"/></svg></span><span>LeafLens<span class="brand-dot">.</span></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="#how">How it works</a><a href="#care">Plant care</a><a href="#about">Our approach</a></nav>
+    <a class="nav-cta" href="#check">Check a leaf <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> A little more life in every leaf</div>
+        <h1>When leaves<br />whisper, <span>listen.</span></h1>
+        <p class="hero-intro">A spot, a curl, a change in color. Get a thoughtful first look at what your plant might be telling you—and what to do next.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#check">Check your plant <span aria-hidden="true">↗</span></a><a class="text-link" href="#how"><span class="play-icon">▶</span> See how it works</a></div>
+        <div class="trust-line"><div class="avatar-stack" aria-hidden="true"><span>🌿</span><span>🪴</span><span>🍃</span></div><span>Made for curious growers, at every level</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a healthy leafy plant">
+        <div class="sun-orb"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+        <div class="glass-note note-top"><span class="note-icon">✳</span><span><b>Small clues matter</b><small>Look a little closer</small></span></div>
+        <div class="plant-illustration">
+          <svg viewBox="0 0 500 570" role="img" aria-label="Lush green plant in a terracotta pot">
+            <defs><linearGradient id="leafA" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9bbb69"/><stop offset="1" stop-color="#3d6e45"/></linearGradient><linearGradient id="leafB" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#668e50"/><stop offset="1" stop-color="#244d38"/></linearGradient><linearGradient id="pot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d18a5d"/><stop offset="1" stop-color="#9d573b"/></linearGradient></defs>
+            <ellipse cx="250" cy="519" rx="154" ry="22" fill="#344e35" opacity=".12"/>
+            <path d="M249 446C248 360 250 270 248 140M248 337C203 281 174 236 155 174M250 363c42-60 76-113 105-183M248 270c-13-58-9-112 5-174M249 404c-52-17-93-42-130-81M250 423c55-12 102-35 143-75" fill="none" stroke="#55774b" stroke-width="8" stroke-linecap="round"/>
+            <path d="M157 182C84 159 71 101 92 65c57 5 103 37 104 87-5 20-20 30-39 30Z" fill="url(#leafA)"/><path d="M102 77c29 25 47 54 57 92" fill="none" stroke="#d2db9d" stroke-width="3" opacity=".65"/>
+            <path d="M251 132c-59-47-46-104 1-127 50 33 68 82 38 120-12 13-25 15-39 7Z" fill="url(#leafB)"/><path d="M251 19c9 36 11 69 4 104" fill="none" stroke="#c2d38c" stroke-width="3" opacity=".65"/>
+            <path d="M350 189c9-72 65-99 110-76 5 60-19 108-69 116-19 1-33-13-41-40Z" fill="url(#leafA)"/><path d="M451 120c-29 20-55 48-77 85" fill="none" stroke="#d2db9d" stroke-width="3" opacity=".65"/>
+            <path d="M116 328c-69 1-103-47-89-95 57-18 109-3 126 44 5 18-7 37-37 51Z" fill="url(#leafB)"/><path d="M37 240c30 14 59 36 87 67" fill="none" stroke="#b4cc83" stroke-width="3" opacity=".65"/>
+            <path d="M391 361c42-58 99-54 126-14-17 55-57 85-101 67-17-8-24-25-25-53Z" fill="url(#leafA)"/><path d="M505 352c-33 3-68 16-101 42" fill="none" stroke="#d2db9d" stroke-width="3" opacity=".65"/>
+            <path d="M121 407c-56-18-72-66-42-102 54 6 91 38 85 80-4 17-19 24-43 22Z" fill="url(#leafA)"/><path d="M84 314c21 27 37 55 48 82" fill="none" stroke="#d2db9d" stroke-width="3" opacity=".65"/>
+            <path d="M169 480h162l-21 74c-3 11-12 18-23 18h-74c-11 0-20-7-23-18l-21-74Z" fill="url(#pot)"/><ellipse cx="250" cy="480" rx="81" ry="17" fill="#8f4f37"/><ellipse cx="250" cy="480" rx="68" ry="10" fill="#533f2c"/>
+          </svg>
+        </div>
+        <div class="glass-note note-bottom"><span class="pulse-leaf">✦</span><span><b>Care, made clearer</b><small>One leaf at a time</small></span><span class="note-arrow">↗</span></div>
+        <span class="float-leaf leaf-a">✦</span><span class="float-leaf leaf-b">✧</span><span class="float-leaf leaf-c">✦</span>
+      </div>
+      <div class="hero-caption"><span>01 / A HEALTHIER WAY TO GROW</span><span>ROOTED IN CURIOSITY <i>✳</i></span></div>
+    </section>
+
+    <section class="ticker" aria-label="Plant care values"><div class="ticker-track"><span>Notice the little things</span><i>✳</i><span>Grow with confidence</span><i>✳</i><span>Care that feels natural</span><i>✳</i><span>Notice the little things</span><i>✳</i><span>Grow with confidence</span><i>✳</i><span>Care that feels natural</span><i>✳</i></div></section>
+
+    <section class="check-section wrap" id="check">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> YOUR PLANT’S FIRST CHECK-IN</div><h2>Let’s take a closer look.</h2></div><p>No green thumb required. Start with a clear photo of the leaf that caught your eye.</p></div>
+      <div class="check-card" id="drop-zone">
+        <div class="upload-side">
+          <div class="upload-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 32V10m0 0-8 8m8-8 8 8M10 29v9a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-9"/></svg></div>
+          <h3>Bring a leaf into focus</h3><p>Upload a photo to get a guided, early look at possible plant health concerns.</p>
+          <label class="button button-primary upload-button" for="leaf-file">Choose a photo <span aria-hidden="true">↑</span></label><input id="leaf-file" type="file" accept="image/*" hidden />
+          <div class="upload-hint">JPG, PNG or WEBP <span>·</span> A close, clear leaf photo works best</div>
+        </div>
+        <div class="preview-side" id="preview-side">
+          <div class="preview-decoration deco-one"></div><div class="preview-decoration deco-two"></div>
+          <div class="preview-placeholder" id="preview-placeholder"><div class="scan-frame"><span></span><span></span><span></span><span></span><div class="scan-leaf">♧</div></div><div class="preview-label"><span class="live-dot"></span> READY WHEN YOU ARE</div></div>
+          <img id="leaf-preview" alt="Your selected leaf photo preview" hidden />
+          <div class="photo-coach" id="photo-coach" aria-live="polite">Photo coach · Upload a leaf photo to get tips on lighting, detail, and image size.</div>
+          <div class="preview-caption">A GOOD PHOTO HELPS US NOTICE MORE <span>✳</span></div>
+        </div>
+        <div class="analysis-result" id="analysis-result" aria-live="polite" aria-busy="false" hidden>
+          <div class="result-main"><div class="result-pill"><span class="live-dot"></span><span class="result-pill-label">READY</span></div><h3>Your photo is ready.</h3><p class="result-message">Your leaf check will appear here.</p><div class="confidence" hidden><div class="confidence-track"><span class="confidence-fill"></span></div><span class="confidence-label"></span></div></div>
+          <section class="low-confidence-advice" hidden aria-label="Plant care precautions"><h4 class="advice-title">Care suggestions</h4><ul class="advice-list"></ul></section>
+          <div class="result-foot"><span>Powered by the LeafLens plant model</span><button class="reset-check" id="reset-check" type="button">Reset check <span aria-hidden="true">↻</span></button></div>
+        </div>
+      </div>
+      <section class="history-panel" id="scan-history" aria-labelledby="history-title">
+        <div class="history-heading"><div><span class="history-kicker">GROWING OVER TIME</span><h3 id="history-title">Recent plant checks</h3><p>Saved on this device. Your photos are not stored here.</p></div><button class="history-clear" id="clear-history" type="button">Clear history</button></div>
+        <ul class="history-list" id="history-list"></ul>
+      </section>
+    </section>
+
+    <section class="steps-section" id="how"><div class="wrap"><div class="section-heading steps-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> EASY AS GROWING</div><h2>A little attention<br />goes a long way.</h2></div><p>Good care starts with noticing. We make the next step feel a little less like guesswork.</p></div><div class="steps-grid"><article class="step-card"><span class="step-number">01</span><div class="step-graphic photo-graphic"><span class="graphic-sun"></span><span class="graphic-leaf">♧</span><span class="graphic-focus">+</span></div><h3>Show us the signs</h3><p>Take a clear photo of the leaf or spot you’re curious about.</p></article><article class="step-card"><span class="step-number">02</span><div class="step-graphic scan-graphic"><span class="scan-line"></span><span class="graphic-leaf">♧</span><span class="scan-corner tl"></span><span class="scan-corner tr"></span><span class="scan-corner bl"></span><span class="scan-corner br"></span></div><h3>Get a closer look</h3><p>A plant health model can help surface patterns worth paying attention to.</p></article><article class="step-card"><span class="step-number">03</span><div class="step-graphic care-graphic"><span class="care-spark">✳</span><span class="graphic-leaf">♧</span><span class="care-orbit"></span></div><h3>Choose a caring next step</h3><p>Get simple guidance to help you decide what to check or change next.</p></article></div></div></section>
+
+    <section class="care-section wrap" id="care"><div class="care-art"><div class="care-art-circle"><div class="care-sun"></div><div class="care-stem"></div><div class="care-leaf cl-one">♧</div><div class="care-leaf cl-two">♧</div><div class="care-leaf cl-three">♧</div><div class="care-pot"></div></div><div class="care-chip">GROW AT YOUR OWN PACE <span>✳</span></div></div><div class="care-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> PLANT CARE, WITH HEART</div><h2>More understanding.<br /><span>Less guessing.</span></h2><p>A clear photo can help you learn what’s growing and which signs to keep an eye on.</p><div class="identify-callout"><div><span class="identify-kicker">A LITTLE HELP FROM LEAFLENS</span><h3>Meet your plant</h3><p>Upload a leaf photo to get a likely plant name and a first health check.</p></div><label class="button button-primary identify-button" for="leaf-file">Identify my plant <span aria-hidden="true">↑</span></label></div></div></section>
+
+    <section class="closing wrap" id="about"><div class="closing-inner"><div class="closing-orb orb-left"></div><div class="closing-orb orb-right"></div><span class="closing-kicker">A NOTE FROM THE GARDEN</span><h2>Every thriving plant<br />begins with <em>paying attention.</em></h2><a class="button button-light" href="#check">Give your plant a check-in <span>↗</span></a><div class="closing-sprig">✳</div></div></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#home"><span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M25.8 5.4C15.1 5.2 7.4 8.2 6.1 16c-.7 4.2 1.9 7.2 5.4 7.3 7.7.2 12.8-7.7 14.3-17.9Z"/><path d="M7 27c3.9-6.6 8.8-10.9 15.9-15.3"/></svg></span><span>LeafLens<span class="brand-dot">.</span></span></a><span>Care begins when you notice.</span><a href="#home" class="back-top">BACK TO THE TOP ↑</a></footer>
+  <script src="script.js?v=leaflens-1"></script>
+</body>
+</html>

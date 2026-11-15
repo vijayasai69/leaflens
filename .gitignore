@@ -1,0 +1,28 @@
+# Python environments and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Model weights, downloaded checkpoints, and training outputs
+models/
+artifacts/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Local runtime files and secrets
+*.log
+.env
+.env.*
+!.env.example
+.hf-card-staging/
+.cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
